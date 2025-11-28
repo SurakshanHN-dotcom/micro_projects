@@ -4,17 +4,17 @@
 using namespace std;
 
 int main() {
-    // Initialize random number generator
     srand(time(0));
+    // Initialize random number generator
 
-    // Generate random number between 1 and 100
     int randomNumber = (rand() % 100) + 1;
+    // Generates a random number between 1 and 100
+    
     int no_of_guesses = 0;
     int guessed_number;
 
     
-    //cout << "Random Number: " << randomNumber << endl;
-
+    
     do {
         cout << "Guess the number: ";
         cin >> guessed_number;
@@ -37,3 +37,4 @@ int main() {
 
     return 0;
 }
+
