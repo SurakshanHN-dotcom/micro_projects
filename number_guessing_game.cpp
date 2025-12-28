@@ -9,7 +9,6 @@ int main() {
 
     int randomNumber = (rand() % 100) + 1;
     // Generates a random number between 1 and 100
-    // using modulo operator
     int no_of_guesses = 0;
     int guessed_number;
 
